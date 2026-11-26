@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mateo Carrasco | Pasión Xeneize</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">CABJ<span>.</span></div>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#mi-pasion">Mi pasión</a>
+            <a href="#boca">Boca Juniors</a>
+        </nav>
+
+        <div class="header-tag">● XENEIZE DE CORAZÓN</div>
+    </header>
+
+    <main>
+
+        <section class="hero" id="inicio">
+
+            <div class="hero-content">
+
+                <div class="tag">🔵 UNA PASIÓN INEXPLICABLE 🟡</div>
+
+                <h1>
+                    MATEO<br>
+                    <span>CARRASCO.</span>
+                </h1>
+
+                <h2>AZUL Y ORO HASTA EL FINAL.</h2>
+
+                <p>
+                    No es solamente fútbol.
+                    Es identidad, sentimiento, historia
+                    y una pasión que no se explica.
+                    ¡SOY DE BOCA!
+                </p>
+
+                <a href="#sobre-mi" class="boton">
+                    CONOCÉ MI HISTORIA →
+                </a>
+
+            </div>
+
+            <div class="hero-number">
+                <span>12</span>
+                <p>UN SENTIMIENTO<br>INEXPLICABLE</p>
+            </div>
+
+        </section>
+
+        <section class="sobre-mi" id="sobre-mi">
+
+            <div class="section-label">01 / PRESENTACIÓN</div>
+
+            <h2>¿QUIÉN SOY?</h2>
+
+            <p class="descripcion">
+                Soy Mateo Daniel Carrasco, un apasionado por
+                el fútbol y especialmente por Boca Juniors.
+                Llevo los colores azul y oro en el corazón.
+            </p>
+
+            <div class="cards">
+
+                <div class="card">
+                    <span>👤</span>
+                    <h3>NOMBRE</h3>
+                    <p>Mateo Daniel Carrasco</p>
+                </div>
+
+                <div class="card">
+                    <span>🎂</span>
+                    <h3>EDAD</h3>
+                    <p>17 años</p>
+                </div>
+
+                <div class="card">
+                    <span>💙</span>
+                    <h3>PASIÓN</h3>
+                    <p>Boca Juniors</p>
+                </div>
+
+                <div class="card">
+                    <span>⚽</span>
+                    <h3>IDENTIDAD</h3>
+                    <p>100% Xeneize</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="pasion" id="mi-pasion">
+
+            <div class="section-label">02 / MI SENTIMIENTO</div>
+
+            <h2>NO ES UN CLUB.<br>
+                <span>ES MI PASIÓN.</span>
+            </h2>
+
+            <p>
+                Ser de Boca es sentir cada partido,
+                alentar en las buenas y en las malas,
+                emocionarse con cada gol y defender
+                estos colores con orgullo.
+            </p>
+
+            <div class="frase">
+                "BOCA ES GRANDEZA, HISTORIA Y SENTIMIENTO."
+            </div>
+
+        </section>
+
+        <section class="boca" id="boca">
+
+            <div class="section-label">03 / EL MÁS GRANDE</div>
+
+            <h2>CLUB ATLÉTICO<br>
+                <span>BOCA JUNIORS</span>
+            </h2>
+
+            <p>
+                La Bombonera, los colores, la gente,
+                la historia y esa pasión que hace
+                único a Boca Juniors.
+            </p>
+
+            <div class="estadio">
+                <div class="estadio-text">
+                    <span>LA BOMBONERA</span>
+                    <h3>DONDE TODO<br>ES DIFERENTE.</h3>
+                    <p>UN SENTIMIENTO QUE NO SE COMPARA.</p>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="logo">CABJ<span>.</span></div>
+
+        <p>HECHO CON PASIÓN POR MATEO CARRASCO.</p>
+
+        <h3>🔵💛🔵</h3>
+
+        <small>UNA PASIÓN QUE NO SE EXPLICA.</small>
+    </footer>
+
+</body>
+</html>
