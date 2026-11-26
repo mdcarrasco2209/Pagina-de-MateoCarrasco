@@ -1,0 +1,386 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --azul: #071d46;
+    --azul-claro: #103d83;
+    --amarillo: #ffcc00;
+    --blanco: #ffffff;
+    --gris: #aeb8ca;
+}
+
+body {
+    background: #050d1c;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* NAVEGACIÓN */
+
+header {
+    height: 85px;
+    padding: 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #07152c;
+    border-bottom: 1px solid #ffffff15;
+}
+
+.logo {
+    font-size: 27px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.logo span {
+    color: var(--amarillo);
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    transition: .3s;
+}
+
+nav a:hover {
+    color: var(--amarillo);
+}
+
+.header-tag {
+    color: var(--amarillo);
+    font-size: 10px;
+    font-weight: 800;
+}
+
+/* PORTADA */
+
+.hero {
+    min-height: 650px;
+    padding: 100px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:
+        radial-gradient(circle at 80% 40%, #17478a 0%, transparent 40%),
+        linear-gradient(120deg, #06152f, #092b60);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content {
+    max-width: 650px;
+    position: relative;
+    z-index: 2;
+}
+
+.tag {
+    color: var(--amarillo);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    font-size: clamp(55px, 9vw, 105px);
+    line-height: .95;
+    font-weight: 900;
+    letter-spacing: -5px;
+}
+
+.hero h1 span {
+    color: var(--amarillo);
+}
+
+.hero h2 {
+    font-size: 16px;
+    margin-top: 30px;
+    letter-spacing: 4px;
+}
+
+.hero p {
+    color: var(--gris);
+    line-height: 1.9;
+    max-width: 470px;
+    margin: 25px 0 35px;
+    font-size: 14px;
+}
+
+.boton {
+    display: inline-block;
+    background: var(--amarillo);
+    color: #07152c;
+    padding: 17px 27px;
+    font-size: 12px;
+    font-weight: 900;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.boton:hover {
+    transform: translateY(-5px);
+    background: white;
+}
+
+.hero-number {
+    text-align: center;
+    opacity: .9;
+}
+
+.hero-number span {
+    font-size: 180px;
+    font-weight: 900;
+    color: #ffffff12;
+}
+
+.hero-number p {
+    color: var(--amarillo);
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+/* SECCIONES */
+
+.sobre-mi,
+.pasion,
+.boca {
+    padding: 110px 10%;
+    text-align: center;
+}
+
+.section-label {
+    color: var(--amarillo);
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    margin-bottom: 25px;
+}
+
+section h2 {
+    font-size: clamp(35px, 6vw, 55px);
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.descripcion {
+    color: var(--gris);
+    max-width: 650px;
+    line-height: 2;
+    margin: auto;
+    font-size: 14px;
+}
+
+/* TARJETAS */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.card {
+    background: #0b1d39;
+    border: 1px solid #ffffff12;
+    padding: 35px 15px;
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    border-color: var(--amarillo);
+}
+
+.card span {
+    font-size: 35px;
+}
+
+.card h3 {
+    color: var(--amarillo);
+    font-size: 12px;
+    margin: 20px 0 12px;
+    letter-spacing: 2px;
+}
+
+.card p {
+    font-size: 12px;
+    color: var(--gris);
+}
+
+/* MI PASIÓN */
+
+.pasion {
+    background: linear-gradient(135deg, #0a2860, #07152c);
+}
+
+.pasion h2 span,
+.boca h2 span {
+    color: var(--amarillo);
+}
+
+.pasion > p,
+.boca > p {
+    max-width: 650px;
+    margin: auto;
+    color: var(--gris);
+    line-height: 2;
+    font-size: 14px;
+}
+
+.frase {
+    margin-top: 50px;
+    padding: 30px;
+    border-top: 1px solid var(--amarillo);
+    border-bottom: 1px solid var(--amarillo);
+    color: var(--amarillo);
+    font-size: 17px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+/* BOMBONERA */
+
+.estadio {
+    margin-top: 50px;
+    min-height: 350px;
+    background:
+        linear-gradient(90deg, #07152ce8, #07152c40),
+        repeating-linear-gradient(
+            0deg,
+            #123c77,
+            #123c77 25px,
+            #ffcc00 25px,
+            #ffcc00 45px
+        );
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 50px;
+    border: 1px solid #ffffff20;
+}
+
+.estadio-text span {
+    color: var(--amarillo);
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+
+.estadio-text h3 {
+    font-size: 45px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.estadio-text p {
+    color: white;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 55px 20px;
+    text-align: center;
+    background: #030916;
+    border-top: 3px solid var(--amarillo);
+}
+
+footer p {
+    margin: 20px 0;
+    color: var(--gris);
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+footer h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+footer small {
+    color: var(--amarillo);
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+
+/* CELULARES */
+
+@media (max-width: 800px) {
+
+    header {
+        height: auto;
+        padding: 25px;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    nav {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .header-tag {
+        display: none;
+    }
+
+    .hero {
+        padding: 90px 7%;
+        min-height: 550px;
+    }
+
+    .hero-number {
+        display: none;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sobre-mi,
+    .pasion,
+    .boca {
+        padding: 80px 7%;
+    }
+
+    .estadio {
+        padding: 30px;
+    }
+
+    .estadio-text h3 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 450px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h1 {
+        letter-spacing: -3px;
+    }
+
+    .frase {
+        font-size: 13px;
+    }
+}
